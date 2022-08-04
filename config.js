@@ -60,7 +60,7 @@ global.psaweria = '-'
 /*============== NOMOR ==============*/
 global.nomorbot = '6289503398304'
 global.nomorown = '6281257172080'
-global.namebot = 'Kanna BOT'
+global.namebot = 'iBeng BOT'
 global.nameown = 'ⓊⒸⒽⒾⒽⒶ ⓃⒶⓇⓊⓉⓄ'
 
 
