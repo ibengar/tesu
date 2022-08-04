@@ -18,7 +18,7 @@ Buat Beli Apikey : 10K
 
   await m.reply('Sedang membuat...')
 
-            let apikey = ('CPt01blLPQ12Zxt51n0Gf18jQqwEr3Vr')
+            let apikey = ('cd7227d604d7acca5d19b4cc')
             let buff = ('https://i.ibb.co/25FH6NH/IMG-20210307-WA0961.jpg');
             let voss = await fetch(buff)
 			let vuss = await ftype.fromStream(voss.body)
