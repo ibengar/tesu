@@ -28,7 +28,7 @@ Buat Beli Apikey : 10K
      }
 }
 handler.help = ['phlogo <teks|teks>']
-handler.tags = ['sticker']
+handler.tags = ['fun']
 handler.command = /^(phlogo)$/i
 handler.owner = false
 handler.mods = false
