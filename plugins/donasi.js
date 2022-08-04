@@ -11,8 +11,8 @@ let text = `
 `
 const templateButtons = [
   //  {index: 1, urlButton: {displayText: '✨ Saweria', url: psaweria}},
-    {index: 2, urlButton: {displayText: '📷 Instagram', https://instagram.com/achmdrizky148: }},
-    {index: 3, urlButton: {displayText: '🌎 Official Group', https://chat.whatsapp.com/INSfEuVHIF2HmT34mB7qCc: }},
+   // {index: 2, urlButton: {displayText: '📷 Instagram', https://instagram.com/achmdrizky148: }},
+    //{index: 3, urlButton: {displayText: '🌎 Official Group', https://chat.whatsapp.com/INSfEuVHIF2HmT34mB7qCc: }},
     {index: 4, quickReplyButton: {displayText: 'Menu', id: '.menu'}},
     {index: 5, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
 ]
