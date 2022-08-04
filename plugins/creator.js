@@ -24,8 +24,8 @@ let teksbio = `${htki} *BIODATA* ${htka}
 *ᴀɢᴇ:* 20ᵗʰ
 *sᴛᴀᴛᴜs:* single 
 
-*ʙɪʀᴛʜᴅᴀʏ:* 21 Des 2002
-*ᴀᴅᴅʀᴇss:* Indonesia, Jawa Barat, Bandung
+*ʙɪʀᴛʜᴅᴀʏ:* 14 AUG 1999
+*ᴀᴅᴅʀᴇss:* Indonesia, Kalimantan Tengah, Kuala Kapuas
 
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [89.7%]
@@ -35,7 +35,7 @@ let teksbio = `${htki} *BIODATA* ${htka}
 
 📷 *Instagram:* ${sig}
 🐈 *Github:* ${sgh}
-🥏 *Whatsapp* wa.me/${nomorown}
+🥏 *Whatsapp* wa.me/6281257172080${nomorown}
 
 `
   let teks = ' '
@@ -43,9 +43,9 @@ const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌎 • Script", rowId: ".sc"},
+	    {title: "📱 • Nomor", rowId: ".081257172080"},
+	{title: "🎨 • Biodata", rowId: ".turu"},
+	//{title: "🌎 • Script", rowId: ".sc"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
@@ -73,7 +73,7 @@ const listMessage = {
           conn.reply(m.chat, teksnomor, m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
-          conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
+          conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/6281257172080" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
             break
             
           default:
