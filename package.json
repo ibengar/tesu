@@ -1,7 +1,7 @@
 {
-    "name": "iBeng BOT",
+    "name": "Kanna BOT",
     "version": "2.10.18",
-    "description": "WhatsApp BOT",
+    "description": "RPG WhatsApp BOT",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -39,7 +39,7 @@
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys": "^4.0.1",
+        "@adiwajshing/baileys": "github:adiwajshing/baileys",
         "@bochilteam/scraper": "^2.0.0",
         "awesome-phonenumber": "^2.68.0",
         "axios": "^0.24.0",
